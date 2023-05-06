@@ -7,5 +7,5 @@ AppWall.swift defines the SwiftUI view presenting the app wall.
 
 Embedded in a [DeckUI](https://github.com/joshdholtz/DeckUI) slide for presentation.
 
-Provided as-is, YMMV!
+Provided as-is, I took some shortcuts just to get it going quickly, YMMV! 😬
 
