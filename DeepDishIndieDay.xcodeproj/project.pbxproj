@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C2D4BF229FB4F3E007B295E /* DeepDishIndieDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D4BF129FB4F3E007B295E /* DeepDishIndieDayApp.swift */; };
+		2C2D4BF429FB4F3E007B295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2D4BF329FB4F3E007B295E /* ContentView.swift */; };
+		2C2D4BF629FB4F3F007B295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D4BF529FB4F3F007B295E /* Assets.xcassets */; };
+		2C2D4BF929FB4F3F007B295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2D4BF829FB4F3F007B295E /* Preview Assets.xcassets */; };
+		2C2D4C0229FB4F7C007B295E /* DeckUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C2D4C0129FB4F7C007B295E /* DeckUI */; };
+		83740D4229FC5E8F00C1B6D2 /* AppWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83740D4129FC5E8F00C1B6D2 /* AppWall.swift */; };
+		83740D4429FC5EF100C1B6D2 /* indie-apps in Resources */ = {isa = PBXBuildFile; fileRef = 83740D4329FC5EF100C1B6D2 /* indie-apps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C2D4BEE29FB4F3E007B295E /* DeepDishIndieDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDishIndieDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2D4BF129FB4F3E007B295E /* DeepDishIndieDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDishIndieDayApp.swift; sourceTree = "<group>"; };
+		2C2D4BF329FB4F3E007B295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C2D4BF529FB4F3F007B295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C2D4BF829FB4F3F007B295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C2D4BFA29FB4F3F007B295E /* DeepDishIndieDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepDishIndieDay.entitlements; sourceTree = "<group>"; };
+		83740D4129FC5E8F00C1B6D2 /* AppWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppWall.swift; sourceTree = "<group>"; };
+		83740D4329FC5EF100C1B6D2 /* indie-apps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "indie-apps"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C2D4BEB29FB4F3E007B295E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D4C0229FB4F7C007B295E /* DeckUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C2D4BE529FB4F3E007B295E = {
+			isa = PBXGroup;
+			children = (
+				2C2D4BF029FB4F3E007B295E /* DeepDishIndieDay */,
+				2C2D4BEF29FB4F3E007B295E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C2D4BEF29FB4F3E007B295E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D4BEE29FB4F3E007B295E /* DeepDishIndieDay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C2D4BF029FB4F3E007B295E /* DeepDishIndieDay */ = {
+			isa = PBXGroup;
+			children = (
+				83740D4129FC5E8F00C1B6D2 /* AppWall.swift */,
+				2C2D4BF129FB4F3E007B295E /* DeepDishIndieDayApp.swift */,
+				2C2D4BF329FB4F3E007B295E /* ContentView.swift */,
+				2C2D4BF529FB4F3F007B295E /* Assets.xcassets */,
+				83740D4329FC5EF100C1B6D2 /* indie-apps */,
+				2C2D4BFA29FB4F3F007B295E /* DeepDishIndieDay.entitlements */,
+				2C2D4BF729FB4F3F007B295E /* Preview Content */,
+			);
+			path = DeepDishIndieDay;
+			sourceTree = "<group>";
+		};
+		2C2D4BF729FB4F3F007B295E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D4BF829FB4F3F007B295E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C2D4BED29FB4F3E007B295E /* DeepDishIndieDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C2D4BFD29FB4F3F007B295E /* Build configuration list for PBXNativeTarget "DeepDishIndieDay" */;
+			buildPhases = (
+				2C2D4BEA29FB4F3E007B295E /* Sources */,
+				2C2D4BEB29FB4F3E007B295E /* Frameworks */,
+				2C2D4BEC29FB4F3E007B295E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepDishIndieDay;
+			packageProductDependencies = (
+				2C2D4C0129FB4F7C007B295E /* DeckUI */,
+			);
+			productName = DeepDishIndieDay;
+			productReference = 2C2D4BEE29FB4F3E007B295E /* DeepDishIndieDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2D4BE629FB4F3E007B295E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2C2D4BED29FB4F3E007B295E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C2D4BE929FB4F3E007B295E /* Build configuration list for PBXProject "DeepDishIndieDay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C2D4BE529FB4F3E007B295E;
+			packageReferences = (
+				2C2D4C0029FB4F7C007B295E /* XCRemoteSwiftPackageReference "DeckUI" */,
+			);
+			productRefGroup = 2C2D4BEF29FB4F3E007B295E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C2D4BED29FB4F3E007B295E /* DeepDishIndieDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C2D4BEC29FB4F3E007B295E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D4BF929FB4F3F007B295E /* Preview Assets.xcassets in Resources */,
+				2C2D4BF629FB4F3F007B295E /* Assets.xcassets in Resources */,
+				83740D4429FC5EF100C1B6D2 /* indie-apps in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C2D4BEA29FB4F3E007B295E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83740D4229FC5E8F00C1B6D2 /* AppWall.swift in Sources */,
+				2C2D4BF429FB4F3E007B295E /* ContentView.swift in Sources */,
+				2C2D4BF229FB4F3E007B295E /* DeepDishIndieDayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C2D4BFB29FB4F3F007B295E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C2D4BFC29FB4F3F007B295E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2C2D4BFE29FB4F3F007B295E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepDishIndieDay/DeepDishIndieDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepDishIndieDay/Preview Content\"";
+				DEVELOPMENT_TEAM = GZS3K47B3Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Trash;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshholtz.DeepDishIndieDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2C2D4BFF29FB4F3F007B295E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepDishIndieDay/DeepDishIndieDay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepDishIndieDay/Preview Content\"";
+				DEVELOPMENT_TEAM = GZS3K47B3Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Trash;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshholtz.DeepDishIndieDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C2D4BE929FB4F3E007B295E /* Build configuration list for PBXProject "DeepDishIndieDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D4BFB29FB4F3F007B295E /* Debug */,
+				2C2D4BFC29FB4F3F007B295E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C2D4BFD29FB4F3F007B295E /* Build configuration list for PBXNativeTarget "DeepDishIndieDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C2D4BFE29FB4F3F007B295E /* Debug */,
+				2C2D4BFF29FB4F3F007B295E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C2D4C0029FB4F7C007B295E /* XCRemoteSwiftPackageReference "DeckUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joshdholtz/DeckUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C2D4C0129FB4F7C007B295E /* DeckUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C2D4C0029FB4F7C007B295E /* XCRemoteSwiftPackageReference "DeckUI" */;
+			productName = DeckUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C2D4BE629FB4F3E007B295E /* Project object */;
+}
